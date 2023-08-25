@@ -1,0 +1,13 @@
+Data,Value
+Enter the Hostname,Colgan-Acct-40F
+Enter the Usable Public IP Address,192.168.50.23
+Enter the Public Gateway IP Address,192.168.50.254
+Enter the Public Subnet (IE 255.255.255.252),255.255.255.0
+Enter the LAN IP Address for the Fortigate,192.168.2.254
+Enter the LAN IP Subnet Mask,255.255.255.0
+Enter the first Address in the DHCP Scope, 192.168.2.100
+Enter the last Address in the DHCP Scope, 192.168.2.199
+Enter the Primary DNS Server IP Address,192.168.0.253
+Enter the Second DNS Server IP Address,8.8.8.8
+Enter the Third DNS Server IP Address,1.1.1.1
+Enter the local domain (ie Entre.local),colganindustries.local
