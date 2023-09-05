@@ -1,5 +1,6 @@
 ﻿Rule Name,External IP,Internal IP,WAN interface,Protocol (UDP/TCP),External Port,Internal Port,Group Name,Fortigate Admin Access
-Fortigate Webadmin TCP 4443,0.0.0.0,10.10.10.254,wan,tcp,4443,4443,,
-Fortigate SSH TCP 22,0.0.0.0,10.10.10.254,wan,tcp,22,22,,
-Fortigate SNMP UDP 161,0.0.0.0,10.10.10.254,wan,udp,161,161,,
-Fortigate SNMP UDP 162,0.0.0.0,10.10.10.254,wan,udp,162,162,,
+FortiGate Webadmin TCP 4443,0.0.0.0,10.10.10.254,wan,tcp,4443,4443,,
+FortiGate SSH TCP 22,0.0.0.0,10.10.10.254,wan,tcp,22,22,,
+FortiGate SNMP UDP 161,0.0.0.0,10.10.10.254,wan,udp,161,161,,
+FortiGate SNMP UDP 162,0.0.0.0,10.10.10.254,wan,udp,162,162,,
+FortiGate ICMP,0.0.0.0,10.10.10.254,wan,icmp

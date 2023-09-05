@@ -247,15 +247,17 @@ while another_vip == True:
                     string_config_vip_line_4 = 'set mappedip ' + list_of_rows[x][2]
                     string_config_vip_line_5 = 'set extintf ' + string_wan_interface
                     string_config_vip_line_7 = 'set protocol ' + list_of_rows[x][4]
-                    string_config_vip_line_8 = 'set extport ' + list_of_rows[x][5]
-                    string_config_vip_line_9 = 'set mappedport ' + list_of_rows[x][6]
+                    if "icmp" not in list_of_rows[x][4]:
+                        string_config_vip_line_8 = 'set extport ' + list_of_rows[x][5]
+                        string_config_vip_line_9 = 'set mappedport ' + list_of_rows[x][6]
 
                     config_vip.insert(1, string_config_vip_line_2)
                     config_vip.insert(3, string_config_vip_line_4)
                     config_vip.insert(4, string_config_vip_line_5)
                     config_vip.insert(5, string_config_vip_line_7)
-                    config_vip.insert(6, string_config_vip_line_8)
-                    config_vip.insert(7, string_config_vip_line_9)
+                    if "icmp" not in list_of_rows[x][4]:
+                        config_vip.insert(6, string_config_vip_line_8)
+                        config_vip.insert(7, string_config_vip_line_9)
 
                     #print(config_vip)
                     if x != 1:
